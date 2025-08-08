@@ -99,3 +99,12 @@
   cursor: not-allowed;
   transform: none;
 }
+
+@media (max-width:500px){
+  .app-header{
+    padding: 10px;
+  }
+  .app-header h1{
+    font-size: 1.2rem;
+  }
+}

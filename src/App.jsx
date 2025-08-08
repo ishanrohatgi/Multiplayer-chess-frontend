@@ -49,11 +49,10 @@ function App() {
   return (
     <div className="app">
       <div className="app-header">
-        <h1>♔ Multiplayer Chess Game ♛</h1>
+        <h1 className='game-title'>Chess Legends 👑</h1>
         {username && (
           <div className="user-info">
             <span>Welcome, {username}!</span>
-            {room && <span className="room-id">Room: {room}</span>}
           </div>
         )}
       </div>
